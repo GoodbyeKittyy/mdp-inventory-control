@@ -7,6 +7,11 @@ A comprehensive retail inventory management game that teaches Markov Decision Pr
 
 ## 🎯 Project Overview
 
+</br>
+<img width="1066" height="712" alt="image" src="https://github.com/user-attachments/assets/1f7ae1d9-e7d1-4b68-b5f8-14d218445218" />
+
+</br>
+
 This project implements a full-stack inventory control system based on Markov Decision Process theory. It combines theoretical rigor with practical application, featuring:
 
 - **Interactive Supply Chain Visualization**: Phase-by-phase flow from supplier to retailer
@@ -65,7 +70,7 @@ mdp-inventory-control/
 ├── mdp_optimizer.rs                   # Rust-based optimizer
 ├── server.js                          # Node.js backend API server
 ├── schema.sql                         # PostgreSQL database schema
-└── [Interactive Artifact]             # React-based game interface
+└── mdp_inventory_game.tsx             # TypeScript Interactive Artifact
 ```
 
 ## 🚀 Getting Started
@@ -313,34 +318,6 @@ Typical performance on modern hardware:
 | Rust | 100 | 150 | ~0.4s |
 | Node.js | 100 | 150 | ~1.8s |
 
-## 🤝 Contributing
-
-Contributions are welcome! Areas for enhancement:
-
-- Additional transportation modes (drone, autonomous vehicles)
-- Multi-echelon supply chain support
-- Machine learning demand forecasting
-- Real-time constraint handling
-- Advanced visualization options
-- Mobile app version
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
-## 🙏 Acknowledgments
-
-- Inspired by classical inventory control literature (Arrow, Karlin, Scarf)
-- MDP formulation based on Puterman's "Markov Decision Processes"
-- Supply chain visualization influenced by modern SCM software
-- Built with modern web technologies and best practices
 
 ## 📚 References
 
@@ -349,23 +326,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 3. Bertsekas, D. P. (2012). *Dynamic Programming and Optimal Control*
 4. Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction*
 
-## 🐛 Known Issues
+---
 
-- Large state spaces (K > 200) may cause memory constraints
-- Extreme demand variance (σ > μ) can slow convergence
-- Database requires periodic maintenance for large simulations
-
-## 🔮 Roadmap
-
-- [ ] Multi-product inventory management
-- [ ] Supplier relationship modeling
-- [ ] Seasonal demand patterns
-- [ ] Capacity constraints
-- [ ] Risk-averse policies (CVaR)
-- [ ] Online learning from real data
-- [ ] Mobile/tablet interface
-- [ ] Multiplayer competitive mode
-
+**⭐ Star this repository if you find it helpful!**
 ---
 
 **Built with ❤️ using MDP theory and modern software engineering practices**
